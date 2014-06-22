@@ -3,7 +3,7 @@ require "the_pagination/version"
 module ThePagination
   class Engine < Rails::Engine; end
 
-  module Concern
+  module Base
     extend ActiveSupport::Concern
 
     module ClassMethods
